@@ -19,7 +19,3 @@ def get_all_pull_request_messages():
 
     pr_messages = [pr.body for pr in pull_requests]
     return pr_messages
-
-
-pr_messages = get_all_pull_request_messages()
-print(pr_messages)
